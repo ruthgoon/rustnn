@@ -1,8 +1,3 @@
-## Basic Neural Network in Rust
-
-TODO :
-
-The model architecture here is dead simple. I might change it in favour of a simple CNN if it doesn't perform but the architecture is this:
 
 ## Architecture
 
