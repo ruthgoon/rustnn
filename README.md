@@ -1,3 +1,8 @@
+## Basic Neural Network in Rust
+
+TODO :
+
+The model architecture here is dead simple. I might change it in favour of a simple CNN if it doesn't perform but the architecture is this:
 
 ## Architecture
 
@@ -8,7 +13,7 @@
 - Input Dimensions: [784]
 - Output Dimensions: [196]
 - Weight Dimensions: [784,196]
-- Bias Dimensions: [10]
+- Bias Dimensions: [196]
 - Activation Function: Softmax
 
 **Hidden Layer**
@@ -16,7 +21,7 @@
 - Input Dimensions: [196]
 - Output Dimensions: [49]
 - Weight Dimensions: [196,49]
-- Bias Dimensions: [10]
+- Bias Dimensions: [49]
 - Activation Function: Softmax
 
 **Output Layer**
